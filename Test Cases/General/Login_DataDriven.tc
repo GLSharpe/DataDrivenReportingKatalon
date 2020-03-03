@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_DataDriven</name>
+   <tag></tag>
+   <comment>Writing To Correct File
+Ensures Katalon logs the failing tests as failures</comment>
+   <testCaseGuid>57f458b6-5a25-4df5-b309-8046695e276f</testCaseGuid>
+   <variable>
+      <defaultValue>'ddtest1@test.com'</defaultValue>
+      <description></description>
+      <id>7377ae2a-aa55-459d-911a-2ab39fb2fb3c</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'testtest1'</defaultValue>
+      <description></description>
+      <id>588dd7a6-d621-4a13-8627-69178a4674b6</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'ddtestone ddtestone'</defaultValue>
+      <description></description>
+      <id>417845c5-d148-4fa9-a4ca-c897c4000c3e</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>047fa4a3-d938-4622-9edd-04cdc0e14635</id>
+      <masked>false</masked>
+      <name>var_files_to_write</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01dc2c93-456a-4789-9455-43f601f42ed9</id>
+      <masked>false</masked>
+      <name>var_report_type</name>
+   </variable>
+</TestCaseEntity>

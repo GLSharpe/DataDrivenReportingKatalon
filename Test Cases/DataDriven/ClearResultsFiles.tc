@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ClearResultsFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cad1ea6-cc68-407d-9001-cfe1df013938</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>634d9bfc-b98a-44a6-a159-18bf9d984b44</id>
+      <masked>false</masked>
+      <name>var_files_to_clear</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd2b54e7-fead-41cf-b46a-960b230208f9</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

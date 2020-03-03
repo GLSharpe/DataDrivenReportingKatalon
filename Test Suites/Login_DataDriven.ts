@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login_DataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>00dcda9e-ba63-4661-ab7b-e1083bff095f</testSuiteGuid>
+   <testCaseLink>
+      <guid>c25bf091-bc67-4614-a39b-41878f8f864e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDriven/ClearResultsFiles</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>[&quot;Passed&quot;, &quot;InvalidCredentials&quot;, &quot;IncorrectName&quot;]</value>
+         <variableId>634d9bfc-b98a-44a6-a159-18bf9d984b44</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;Login&quot;</value>
+         <variableId>cd2b54e7-fead-41cf-b46a-960b230208f9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e9eb5a3-2032-4acf-a982-8a946282c43e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDriven/NaivgateToSignIn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>781c9a51-836d-445b-b18e-042f2a2be4b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/General/Login_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cd4660d4-0448-499e-ba7f-cabe037d597e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginCredentials (1)</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>cd4660d4-0448-499e-ba7f-cabe037d597e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>7377ae2a-aa55-459d-911a-2ab39fb2fb3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cd4660d4-0448-499e-ba7f-cabe037d597e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>588dd7a6-d621-4a13-8627-69178a4674b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cd4660d4-0448-499e-ba7f-cabe037d597e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>417845c5-d148-4fa9-a4ca-c897c4000c3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>[&quot;Passed&quot;, &quot;InvalidCredentials&quot;, &quot;IncorrectName&quot;]</value>
+         <variableId>047fa4a3-d938-4622-9edd-04cdc0e14635</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;Login&quot;</value>
+         <variableId>01dc2c93-456a-4789-9455-43f601f42ed9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9e17cad-2018-4d2c-9415-db9bd717dfbe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDriven/GenerateReport</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>[&quot;Passed&quot;, &quot;InvalidCredentials&quot;, &quot;IncorrectName&quot;]</value>
+         <variableId>3c9a91e0-42fc-4d16-9d8b-4cddd521436f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;Login&quot;</value>
+         <variableId>27bb1f8f-9364-42a0-9ac9-93d42fbdafad</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

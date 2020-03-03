@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GenerateReport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd990f72-5245-4e56-8392-1428daa4e4e5</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>3c9a91e0-42fc-4d16-9d8b-4cddd521436f</id>
+      <masked>false</masked>
+      <name>var_files_to_count</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27bb1f8f-9364-42a0-9ac9-93d42fbdafad</id>
+      <masked>false</masked>
+      <name>var_report_type</name>
+   </variable>
+</TestCaseEntity>
