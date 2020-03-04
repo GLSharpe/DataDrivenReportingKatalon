@@ -50,9 +50,6 @@ writer.append(var_email)
 writer.newLine()
 
 writer.close()
-
-WebUI.comment('Ensures Katalon logs the failing tests as failures')
-
 ```
 
 11) Then add a step at the bottom that verifies the outcome its 0 which will be the index of the values that pass as Passed should always be the first value in the list. This step is not essential but it will trigger Katalon to fail that test step so you can use that as a quick metric of how a test step went.
