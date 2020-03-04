@@ -9,6 +9,8 @@ The demo was written on a [sample automation site](http://automationpractice.com
 
 This goes through how to set a new instance of a data driven test that usees the reporting feature.
 
+## Steps
+
 To use the tool follow the steps below:
 
 1) Create a folder in the Data Files directory of the project entitled “Results_<Name of Test>”
