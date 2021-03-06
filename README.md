@@ -7,7 +7,7 @@ The way the script works is by having different text files for each possible out
 
 The demo was written on a [sample automation site](http://automationpractice.com/index.php), automating the login in feature, passing through different values.
 
-This goes through how to set a new instance of a data driven test that usees the reporting feature.
+This goes through how to set a new instance of a data driven test that uses the reporting feature.
 
 ## Steps
 
